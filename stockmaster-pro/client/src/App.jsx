@@ -15,7 +15,7 @@ function App() {
   const [darkMode, setDarkMode] = useState(false)
 
   const API_URL = import.meta.env.MODE === 'production'
-    ? 'https://your-railway-app.up.railway.app'  
+    ? 'https://stockmaster-pro-production.up.railway.app'  
     : 'http://localhost:5000'
 
   const fetchProducts = async () => {
